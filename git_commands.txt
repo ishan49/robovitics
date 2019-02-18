@@ -1,0 +1,22 @@
+GIT BASH COMMANDS:-
+1)pwd - present working directory - gives the present directory in which git bash is opened
+2)ls - gives the folders present
+3)cd xyz -change directory- opens the xyz folder(opens if present in current directory,if space is there then use "")
+4)cd ~ - goes back to the main directory
+5)ls -a - shows all folders including the hidden folders(the files having . in the begining are hidden)
+6)touch file_name - creats new file
+7)git version - shows version of git bash
+8)git config --global user.name xyz - changes user name
+9)git config --global user.mail xyz - tells git bash the user email locally
+10)git init - creates new repository
+11)git add --all -add all the files in the staging area
+12)git commit -m 'xyz' - commits the text in the staging area
+13)git log - shows the commits
+14)git diff (copy the commit id) - shows the difference made in the commit
+15)git branch 'xyz' -makes a new branch
+16)git branch - shows the branches
+17)git checkout 'xyz' - changes branch to xyz
+18)git status - shows the changes in staging area
+19)git diff (1st 4 letters of a commit) (1st 4 letters of other commit) - shows difference between both the commit
+20)git remote add origin (url of github repository) - allows to access the online repository
+21)git push -u origin (branch name) - pushes the file into the main repository
